@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Fetch Students</title>
+</head>
+<body>
+<h1> Fetch photos from local database </h1>
+
+<button id="pbGetStudent">Get Students</button>
+<button id="pbGetPhotos">Get Photos</button>
+<button id="pbFetchCameras">Get Cameras</button>
+<br>
+<button id="pbSetPage">Set Page</button>
+<input type="number" id="inpPage">
+
+<br>
+<br>
+<button id="pbCreateTable">Skaber en tabel</button>
+
+<div class="div1">
+    <h1>Mars photos</h1>
+    <table class="table" id="tblMars">
+        <tr>
+            <th>Photo ID</th>
+            <th>Sol</th>
+            <th>Description</th>
+            <th>Rover</th>
+            <th>Camera</th>
+            <th>Photo link</th>
+            <th>Photo image</th>
+        </tr>
+    </table>
+</div>
+
+
+<footer>
+    <p id="copyright" class="copyright text">
+        Copyright &copy; 2027 by The Code Magazine.
+    </p>
+</footer>
+
+
+<script src="js/fetchstudents.js"></script>
+<script src="js/fetchcameras.js"></script>
+<script src="js/createtablelocal.js"></script>
+</body>
+</html>

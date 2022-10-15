@@ -1,0 +1,16 @@
+h1 {
+    color: rgba(61, 61, 148, 0.27);
+    text-transform: uppercase;
+    font-family: Algerian;
+    text-align: center;
+}
+
+tr {
+    background-color: yellow;
+    padding-top: 5px;
+}
+
+td {
+    background-color: green;
+    padding-top: 5px;
+}

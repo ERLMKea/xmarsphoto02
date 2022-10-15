@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert photo</title>
+</head>
+<body>
+<h1>Insert Photo</h1>
+
+<div>
+    <form action="http://localhost:8080/photo" method="post" id="newPhotoForm">
+
+        <label for="photoId">ID</label>
+        <input
+                type="number"
+                name="id"
+                placeholder="eks. 7358"
+                id="photoId"
+        >
+        <br>
+
+        <label for="inpDescrip">Description</label>
+        <input
+                type="text"
+                name="description"
+                placeholder="eks. nice sun"
+                id="inpDescrip"
+                required>
+
+        <label for="inpImgSrc">Navn</label>
+        <input
+                type="text"
+                name="img_src"
+                placeholder="eks. http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FRB_486265257EDR_F0481570FHAZ00323M_.JPG"
+                id="inpImgSrc"
+                required>
+
+        <button type=submit title="Save" id="submit">Save</button>
+
+        <!--<button type="submit" class="form-el">Opret</button>-->
+    </form>
+
+    <button class="pbMoveBack">Gå tilbage</button>
+    <a href="index.html">Gå tilbage</a>
+
+</div>
+
+
+<script src="js/formphoto.js"></script>
+
+</body>
+</html>
+
